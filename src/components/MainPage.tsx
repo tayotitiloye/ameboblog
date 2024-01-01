@@ -30,7 +30,8 @@ async function MainPage() {
 
     const data:Props[] = await getData()
     return (
-        <div className='min-h-[73vh]'>
+        <div className='min-h-[73vh] mx-16'>
+            
             
               {data.length > 0 ? ( <div className='mb-10'>
            
